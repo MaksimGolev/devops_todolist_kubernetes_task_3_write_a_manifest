@@ -69,4 +69,3 @@ def readiness_check(request):
             return HttpResponse("Not Ready", status=503)
         else:
             return HttpResponse("Ready", status=200)
- 
